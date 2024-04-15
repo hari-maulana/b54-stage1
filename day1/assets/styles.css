@@ -1,0 +1,61 @@
+body {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px slategrey;
+    border-radius: 10px;
+
+}
+
+.intro p {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.intro button {
+    background-color: midnightblue;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.intro span {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.socmed {
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    width: 300px;
+    padding: 50px;
+    gap: 25px;
+    color: red;
+}
+
+.profile {
+    background-color: white;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.profile img {
+    border-radius: 10px 10px 0 0;
+}
+
+.profile p {
+    padding-bottom: 10px;
+
+}
