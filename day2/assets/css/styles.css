@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3e6eb;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #f3f3f3;
+    padding:20px 36px;
+  }
+  
+  nav .nav-left ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  nav .nav-left ul li img {
+    width: auto;
+  }
+  
+  nav .nav-left ul li {
+    list-style-type: none;
+  }
+  
+  nav .nav-left ul li a {
+    text-decoration: none;
+    color: #111727;
+    font-weight: bold;
+  }
+  
+  nav .nav-left ul .active a {
+    color: #111727;
+    font-weight: bold;
+    padding: 0 36px;
+  }
+  
+  nav .nav-right a {
+    text-decoration: none;
+    background-color: #111727;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+
+/* content */
+.content {
+    padding: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+    background-color: white;
+    max-width: 1024px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px slategrey;
+    border-radius: 10px;
+
+}
+
+.intro {
+    max-width: 500px;
+}
+
+.intro p {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.intro button {
+    background-color: #111727;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.intro span {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.socmed {
+    text-align: left;
+    margin: 0;
+    font-size: 35px;
+    width: 300px;
+    padding: 50px 0;
+    color: red;
+    letter-spacing: 10px;
+}
+
+.profile {
+    background-color: white;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.profile img {
+    border-radius: 10px 10px 0 0;
+}
+
+.profile p {
+    padding-bottom: 10px;
+
+}

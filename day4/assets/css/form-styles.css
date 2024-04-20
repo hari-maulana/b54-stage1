@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3e6eb;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #f3f3f3;
+    padding:20px 36px;
+  }
+  
+  nav .nav-left ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  nav .nav-left ul li img {
+    width: auto;
+  }
+  
+  nav .nav-left ul li {
+    list-style-type: none;
+  }
+  
+  nav .nav-left ul li a {
+    text-decoration: none;
+    color: #111727;
+    font-weight: bold;
+  }
+  
+  nav .nav-left ul .active a {
+    color: #111727;
+    font-weight: bold;
+    padding: 0 36px;
+  }
+  
+  nav .nav-right a {
+    text-decoration: none;
+    background-color: #111727;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+form {
+    width: 540px;
+    margin: 50px auto;
+  }
+  
+  form div {
+    margin-top: 12px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #959191;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  form div button {
+    cursor: pointer;
+    background-color: midnightblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-content: flex-end;
+  }
